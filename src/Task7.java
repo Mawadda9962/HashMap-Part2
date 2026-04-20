@@ -7,5 +7,7 @@ public class Task7 {
         Map<String, Integer> wordِِAppears2OrMore = new HashMap<>();
 
         String[] word = {"a", "b", "a", "c", "b"};
+
+        for(String words : word){
     }
 }
