@@ -15,8 +15,10 @@ public class Task7 {
                 wordAppears2OrMore.put(words, 1);
             }
         }
+           for(String words : wordAppears2OrMore.keySet()){
 
 
+
+        }
     }
-    }
-}
+
