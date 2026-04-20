@@ -8,7 +8,7 @@ public class Task6 {
 
         String[] word = {"a", "b", "a", "c", "a", "d", "a"};
 
-        String result =
+        String result = "c"
         for(String words : word){
 
             if(AppendWord.containsKey(words)){
