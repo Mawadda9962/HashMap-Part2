@@ -7,7 +7,9 @@ public class Task2 {
 
         String[] word = {"a", "bb", "a", "bb"};
 
-        for
+        for(String words : word){
+            uniqueWordAndLengthAsValue.put(word , word.length());
+        }
 
 
 
