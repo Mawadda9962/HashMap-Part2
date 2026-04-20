@@ -6,6 +6,7 @@ public class Task1 {
         Map<String, Integer> uniqueWord = new HashMap<>();
 
         String[] words = {"a", "b", "a", "b"};
+        Strin[]
 
         for (String word : words){
             uniqueWord.put(word,0);
