@@ -7,11 +7,17 @@ public class Task5 {
 
         String[] word = {"salt", "tea", "soda", "toast"};
 
+        for (String words : words) {
 
-        for(String words : word){
-            String key = words.substring(0,1);
+            String key = word.substring(0, 1);
 
-            if(words.contains())
+            if (map.containsKey(key)) {
+                map.put(key, map.get(key) + word);
+            } else {
+                map.put(key, word);
+            }
         }
+
+        System.out.println(map);
     }
 }
