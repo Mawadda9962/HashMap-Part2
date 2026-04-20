@@ -9,12 +9,12 @@ public class Task5 {
 
         for (String words : word) {
 
-            String key = word.substring(0, 1);
+            String key = words.substring(0, 1);
 
             if (FirstAndLastChar.containsKey(key)) {
-                FirstAndLastChar.put(key, FirstAndLastChar.get(key) + word);
+                FirstAndLastChar.put(key, FirstAndLastChar.get(key) + words);
             } else {
-                FirstAndLastChar.put(key, word);
+                FirstAndLastChar.put(key, words);
             }
         }
 
