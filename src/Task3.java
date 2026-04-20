@@ -1,3 +1,3 @@
 public class Task3 {
-    public static
+    public static void
 }
