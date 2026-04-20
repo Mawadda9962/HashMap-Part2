@@ -8,8 +8,8 @@ public class Task3 {
         String[] words = {"code", "bug"};
 
         for (String word: words){
-            String key = word.charAt(0);
-            String value = word.charAt(word.length()-1);
+            String key = word.substring(0,1);
+            String value = word.substring(word.length()-1);
 
             FirstAndLastChar.put(key,value);
 
