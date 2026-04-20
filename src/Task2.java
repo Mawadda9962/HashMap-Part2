@@ -8,8 +8,10 @@ public class Task2 {
         String[] word = {"a", "bb", "a", "bb"};
 
         for(String words : word){
-            uniqueWordAndLengthAsValue.put(word , word.length());
+            uniqueWordAndLengthAsValue.put(words , words.length());
         }
+
+        System.out.println(uniqueWordAndLengthAsValue);
 
 
 
