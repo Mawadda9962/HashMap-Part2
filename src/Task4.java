@@ -15,6 +15,6 @@ public class Task4 {
                 FirstAndLastChar.put(word,1);
             }
         }
-        sout
+        System.out.println();
     }
 }
