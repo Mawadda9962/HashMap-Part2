@@ -11,7 +11,12 @@ public class Task7 {
         for(String words : word){
             if(wordAppears2OrMore.containsKey(words)){
                 wordAppears2OrMore.put(words, wordAppears2OrMore.get(words) + 1);
-
+            } else {
+                wordAppears2OrMore.put(words, 1);
+            }
         }
+
+
+    }
     }
 }
