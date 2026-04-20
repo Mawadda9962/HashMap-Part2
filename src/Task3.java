@@ -8,7 +8,12 @@ public class Task3 {
         String[] words = {"code", "bug"};
 
         for (String word: words){
-            FirstAndLastChar.put(word.charAt(0), word.charAt(word.length() -1));
+            String key = word.charAt(0);
+            String value = word.charAt(word.length()-1);
+
+            FirstAndLastChar.put(key,value);
+
+
         }
         System.out.println(FirstAndLastChar);
     }
