@@ -4,9 +4,25 @@ import java.util.Map;
 public class Task6 {
     public static void main(String[] args){
 
-        Map<String, String> groupString = new HashMap<>();
+        Map<String, Integer> AppendWord = new HashMap<>();
 
+        String[] word = {"a", "b", "a", "c", "a", "d", "a"};
 
+        for(String words : word){
 
+            if(AppendWord.containsKey(words)){
+                AppendWord.put(words, AppendWord.get(words) + 1);
+            } else {
+                AppendWord.put(words, 1);
+            }
+
+            int count = AppendWord.get(words);
+
+            if(count % 2 == 0){
+                result = result + words;
+            }
+        }
+
+        System.out.println(result);
     }
 }
