@@ -10,7 +10,6 @@ public class Task9 {
 
             char ch = arr[i].charAt(0);
 
-            // إذا أول مرة نشوف الحرف
             if(!onlyOneSwap.containsKey(ch)){
                 onlyOneSwap.put(ch, i);
             }
