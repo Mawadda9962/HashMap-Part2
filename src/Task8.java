@@ -15,7 +15,11 @@ public class Task8 {
                 characterIntegerHashMap.put(ch, i);
             }
 
-        }
+            else {
+                int prevIndex = characterIntegerHashMap.get(ch);
+
+
+            }
 
 
         }
