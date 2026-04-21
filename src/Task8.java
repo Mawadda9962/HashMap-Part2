@@ -11,6 +11,10 @@ public class Task8 {
         for(int i = 0; i < arr.length; i++){
             char ch = arr[i].charAt(0);
 
+            if(!characterIntegerHashMap.containsKey(ch)){
+                characterIntegerHashMap.put(ch, i);
+            }
+
         }
 
 
