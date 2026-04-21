@@ -19,3 +19,7 @@ public class Task9 {
             else if(onlyOneSwap.get(ch) != -1){
 
                 int prevIndex = onlyOneSwap.get(ch);
+
+                String temp = arr[i];
+                arr[i] = arr[prevIndex];
+                arr[prevIndex] = temp;
