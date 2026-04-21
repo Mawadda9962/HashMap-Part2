@@ -19,10 +19,21 @@ public class Task8 {
                 int prevIndex = characterIntegerHashMap.get(ch);
 
 
+                String temp = arr[i];
+                arr[i] = arr[prevIndex];
+                arr[prevIndex] = temp;
+
+                characterIntegerHashMap.remove(ch);
+            }
+        }
+
+        for(String s : arr){
+            System.out.print(s + " ");
+        }
+
             }
 
 
         }
 
-    }
 
