@@ -15,7 +15,6 @@ public class Task9 {
                 onlyOneSwap.put(ch, i);
             }
 
-            // إذا موجود ولم يتم تعطيله
             else if(onlyOneSwap.get(ch) != -1){
 
                 int prevIndex = onlyOneSwap.get(ch);
@@ -28,4 +27,9 @@ public class Task9 {
             }
 
         }
+        for(String s : arr){
+            System.out.print(s + " ");
+        }
+    }
+}
 
