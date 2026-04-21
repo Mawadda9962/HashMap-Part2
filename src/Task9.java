@@ -23,3 +23,9 @@ public class Task9 {
                 String temp = arr[i];
                 arr[i] = arr[prevIndex];
                 arr[prevIndex] = temp;
+
+                onlyOneSwap.put(ch, -1);
+            }
+
+        }
+
