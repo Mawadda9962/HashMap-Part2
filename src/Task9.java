@@ -3,5 +3,8 @@ public class Task9 {
 
         String[] arr = {"ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"};
 
+        Map<Character, Integer> indexMap = new HashMap<>();
+
+
     }
 }
