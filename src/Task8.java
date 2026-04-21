@@ -7,6 +7,8 @@ public class Task8 {
 
         String[] arr = {"ab", "ac"};
 
+        Map<Character, Integer> characterIntegerHashMap = new HashMap<>();
+
     }
 
     }
