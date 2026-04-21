@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class Task9 {
     public static void main(String[] args){
-        String[] arr = {"ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"]};
+        String[] arr = {"ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"};
         Map<Character, Integer> onlyOneSwap = new HashMap<>();
 
         for(int i = 0; i < arr.length; i++){
