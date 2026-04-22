@@ -2,7 +2,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Task8 {
+public class allSwap {
     public static void main(String[] args){
 
         String[] arr = {"ab", "ac"};
