@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Task4 {
+public class wordCount {
     public static void main(String[] args){
         Map<String, Integer> FirstAndLastChar = new HashMap<>();
 
