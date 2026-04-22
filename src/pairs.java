@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Task3 {
+public class pairs {
     public static void main(String[] args){
         Map<String, String> FirstAndLastChar = new HashMap<>();
 
