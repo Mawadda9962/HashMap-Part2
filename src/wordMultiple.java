@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Task7 {
+public class wordMultiple {
     public static void main(String[] args){
 
         Map<String, Boolean> wordAppears2OrMore = new HashMap<>();
