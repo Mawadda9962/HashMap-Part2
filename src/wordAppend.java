@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Task6 {
+public class wordAppend {
     public static void main(String[] args){
 
         Map<String, Integer> AppendWord = new HashMap<>();
