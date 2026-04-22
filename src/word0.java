@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Task1 {
+public class word0 {
     public static void main(String[] args){
         Map<String, Integer> uniqueWord = new HashMap<>();
 
