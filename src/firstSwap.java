@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Task9 {
+public class firstSwap {
     public static void main(String[] args){
         String[] arr = {"ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"};
         Map<Character, Integer> onlyOneSwap = new HashMap<>();
